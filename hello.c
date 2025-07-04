@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <locale.h>
+#include <cs50.h>
 
 int main()
 {
