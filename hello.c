@@ -1,9 +1,11 @@
 #include <stdio.h>
-#include <cs50.h>
+#include <locale.h>
 
-int main(void)
+int main()
 {
+    setlocale(LC_ALL, "Portuguese");
+
     printf("Hello World!");
-    
+
     return 0;
 }
